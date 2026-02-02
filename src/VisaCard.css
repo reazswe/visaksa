@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+}
+
+.visa-card {
+  width: 720px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  padding: 20px 25px 30px;
+}
+
+.visa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.visa-header .left h2 {
+  margin: 0;
+  color: #1c6b4a;
+  font-size: 28px;
+}
+
+.visa-header .right {
+  text-align: right;
+  font-size: 12px;
+  color: #1c6b4a;
+}
+
+.visa-body {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.photo {
+  width: 150px;
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.info {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.label {
+  width: 160px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.value {
+  flex: 1;
+  background: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.mrz {
+  margin-top: 20px;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-top: 1px dashed #aaa;
+  padding-top: 10px;
+}
+
+.status {
+  margin-top: 15px;
+  background: #d9f3d9;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  color: #1c6b4a;
+  font-weight: bold;
+}
